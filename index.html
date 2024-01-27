@@ -1,43 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab3 - Lê Khánh Dương</title>
+    <link rel="stylesheet" href="l3.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="contact">
+        <div class="wrapper">
+          <div class="content">
+            <div class="form">
+              <form action="">
+                <h2 class="heading">Get in <span>touch</span></h2>
+                <span class="Enim">
+                  Enim tempor eget pharetra facilisis sed maecenas adipiscing.
+                  Eu leo molestie vel, ornare non id blandit netus.
+                </span>
+                <div class="data">
+                  <div class="control">
+                    <input
+                      type="text"
+                      placeholder="Contact name"
+                      name="Contact name"
+                    />
+                  </div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng nhập</title>
-    <link rel="stylesheet" href="#.css">
-</head>
+                  <div class="control">
+                    <input type="text" placeholder="Street" name="street" />
+                  </div>
 
-<body>
-    <form action="Đăng nhập">
-        <h1>Form đăng nhập:</h1>
-        <label>Tài khoản:</label><br>
-        <input type="text"><br>
-        <label>Mật khẩu:</label><br>
-        <input type="password"><br>
-        <label>Số điện thoại</label><br>
-        <input type="number"><br>
-        <input type="radio" name="gioi-tinh" />Nam
-        <input type="radio" name="gioi-tinh" />Nữ<br>
-        <label for="">Quốc gia:</label>
-        <select>
-            <option value="">Chọn quốc gia</option>
-            <option value="">Việt Nam</option>
-            <option value="">Mỹ</option>
-            <option value="">Pháp</option>
-            <option value="">Hàn Quốc</option>
-            <option value="">Triều Tiên</option>
-            <option value="">Trung Quốc</option>
-        </select><br>
-        <label for="">Ảnh</label>
-        <input type="file"><br>
-        <input type="checkbox">Xác nhận thông tin?<br>
-        <hr>
-        <input type="reset">
-        <button>Đăng nhập</button><br>
-        <label for="">Góp ý thêm:</label><br>
-        <textarea name="Góp ý thêm" id="" cols="35" rows="5"></textarea>
-    </form>
-</body>
+                  <div class="control">
+                    <div class="city-info">
+                      <input
+                        class="city"
+                        type="text"
+                        placeholder="City"
+                        name="city"
+                      />
+                      <input
+                        class="post_code"
+                        type="text"
+                        placeholder="Postcode"
+                        name="post_code"
+                      />
+                    </div>
+                  </div>
 
+                  <div class="control">
+                    <input
+                      type="text"
+                      placeholder="Contact Phone"
+                      name="contact_phone"
+                      class="contact_phone"
+                    />
+                  </div>
+
+                  <div class="control">
+                    <input type="text" placeholder="E-mail" name="email" />
+                  </div>
+
+                  <div class="form-control">
+                    <input
+                      type="text"
+                      placeholder="Let's talk about your idea"
+                      name="idea"
+                    />
+                  </div>
+
+                  <div class="control upload">
+                    <div class="upload-file">
+                      <p>
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i> Upload
+                        Additional file
+                      </p>
+                    </div>
+                    <input name="file" class="file" type="file" />
+                  </div>
+
+                  <div class="control">
+                    <div class="protect">
+                      <input id="protect_btn" type="checkbox" />
+                      <label for="protect_btn"
+                        >I want to protect my data by signing an NDA</label
+                      >
+                    </div>
+                  </div>
+
+                  <button type="submit" class="btn">SUBMIT</button>
+
+                  <div class="list-icon">
+                    <div class="item1">
+                      <img src="./img/Frame_831.png" alt="" />
+                      <div class="nhomsdt">
+                        <p>Phone</p>
+                        <p>0973117629</p>
+                      </div>
+                    </div>
+
+                    <div class="item2">
+                      <img src="./img/Frame_833.png" alt="" />
+                      <div class="nhommail">
+                        <p>E-mail</p>
+                        <p>info@gmail.com</p>
+                      </div>
+                    </div>
+
+                    <div class="item3">
+                      <img src="./img/Frame_834.png" alt="" />
+                      <div class="nhomhelp">
+                        <p>HELPDESK</p>
+                        <p>https://helpdesk.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="map">
+                <div class="map-emb">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238190.82030982233!2d105.31241856140227!3d21.123265453284507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313455e940879933%3A0xcf10b34e9f1a03df!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEZQVCBQb2x5dGVjaG5pYw!5e0!3m2!1svi!2s!4v1706267703492!5m2!1svi!2s"
+                        width="1000px" height="530vh" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
